@@ -13,5 +13,8 @@ int main()
         sum += arr[i];
     }
     printf("%d", sum);
+    int b;
+    scanf("%d", &b);
+    printf("\n%d\n", b);
     return 0;
 }

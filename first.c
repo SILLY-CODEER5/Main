@@ -7,5 +7,11 @@ int main()
     {
         printf("%d\n", *(arr + i - 1));
     }
+    int sum = 0;
+    for (int i = 0; i < sizeof(arr) / 4; i++)
+    {
+        sum += arr[i];
+    }
+    printf("%d", sum);
     return 0;
 }
